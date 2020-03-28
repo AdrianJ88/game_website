@@ -1,0 +1,103 @@
+h1 {
+  color: darkslategrey;
+  text-align: center;
+  background-color: silver;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 1.2em;
+}
+
+a {
+  color: silver;
+  text-decoration: none;
+  font-family: "Helectiva", sans-serif;
+}
+a:hover {
+  color: green;
+}
+.unactive:hover {
+  color: silver;
+}
+table {
+  width: 100%;
+  height: 30px;
+  border-collapse: collapse;
+  background-color: darkslategrey;
+}
+body {
+  margin: 0px;
+  overscroll-behavior: none;
+}
+div {
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  top: 0;
+  z-index:999
+}
+
+#minecraft-img {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  transition: transform .15s;
+}
+
+#minecraft-img:hover {
+  transform: scale(1.1);
+}
+
+.videogame-img {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  transition: transform .15s;
+}
+
+.videogame-img:hover {
+  transform: scale(1.1);
+}
+
+.videogame-bottom-img {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  transition: transform .15s;
+}
+
+.videogame-bottom-img:hover {
+  transform: scale(1.1);
+}
+.top-img {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+  transition: transform .15s;
+}
+
+.top-img:hover {
+  transform: scale(1.1);
+}
+
+
+#main_body {
+  background-color: rgb(255, 255, 255);
+}
+
+.ign {
+  position: relative;
+  top: 67px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
